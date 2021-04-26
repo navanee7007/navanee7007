@@ -1,0 +1,58 @@
+package skb.admintestcases;
+
+import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import skb.base.testbase;
+import skb.pages.Homepage;
+import skb.pages.Logpage;
+
+	public class homepagetest extends testbase
+	{
+	  
+		Homepage obj;
+		public homepagetest() 
+		{
+			super();
+			
+		}
+		@BeforeMethod
+		public void setup()
+		{
+			Initialization();
+			obj=new Homepage();
+			
+		}
+		@Test(priority=0)
+		public void titletest()
+		{
+		String expectedtitle="Smart Hospital : Hospital Management System";
+		String actualtitle=obj.checkfortitle();
+		Assert.assertEquals(actualtitle, expectedtitle);
+		}
+		//logo
+		
+		@Test(priority=1)
+		public void logotest() 
+		{
+			
+			Assert.assertTrue(obj.checklogo());
+		
+			
+		}
+		@Test(priority=2)
+		public void login()
+		{
+			obj.logintest(prop.getProperty("username"),prop.getProperty("password"));
+			
+		}
+		@AfterMethod
+		public void teardown()
+		{
+			driver.close();
+		}
+	}
+
+

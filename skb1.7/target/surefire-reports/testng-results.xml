@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-24T10:04:44Z" name="Suite" finished-at="2021-04-24T10:09:07Z" duration-ms="262684">
+    <groups>
+    </groups>
+    <test started-at="2021-04-24T10:04:44Z" name="Test" finished-at="2021-04-24T10:09:07Z" duration-ms="262684">
+      <class name="skb.admintestcases.homepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:36:49Z" name="setup" finished-at="2021-04-24T15:37:09Z" duration-ms="19803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="homepagetitle()[pri:1, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:37:09Z" name="homepagetitle" finished-at="2021-04-24T15:37:09Z" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepagetitle -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:37:09Z" name="AfterMethod" finished-at="2021-04-24T15:37:11Z" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:37:55Z" name="setup" finished-at="2021-04-24T15:38:16Z" duration-ms="21391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkuserlabel()[pri:2, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:38:16Z" name="checkuserlabel" finished-at="2021-04-24T15:38:17Z" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserlabel -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:38:17Z" name="AfterMethod" finished-at="2021-04-24T15:38:17Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:38:43Z" name="setup" finished-at="2021-04-24T15:39:03Z" duration-ms="19965" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkfrontofficeclick()[pri:3, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:39:03Z" name="checkfrontofficeclick" finished-at="2021-04-24T15:39:07Z" duration-ms="4286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkfrontofficeclick -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:skb.admintestcases.homepagetest@1a5a4e19]" started-at="2021-04-24T15:39:07Z" name="AfterMethod" finished-at="2021-04-24T15:39:07Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- skb.admintestcases.homepagetest -->
+      <class name="skb.admintestcases.logintestcases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:34:44Z" name="setup" finished-at="2021-04-24T15:34:51Z" duration-ms="6872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="titletest()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:34:51Z" name="titletest" finished-at="2021-04-24T15:34:51Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titletest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:34:51Z" name="teardown" finished-at="2021-04-24T15:34:51Z" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:36:41Z" name="setup" finished-at="2021-04-24T15:36:48Z" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logotest()[pri:1, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:36:48Z" name="logotest" finished-at="2021-04-24T15:36:49Z" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logotest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:36:49Z" name="teardown" finished-at="2021-04-24T15:36:49Z" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:37:33Z" name="setup" finished-at="2021-04-24T15:37:39Z" duration-ms="5952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:2, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:37:39Z" name="login" finished-at="2021-04-24T15:37:53Z" duration-ms="13722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:skb.admintestcases.logintestcases@4ee203eb]" started-at="2021-04-24T15:37:53Z" name="teardown" finished-at="2021-04-24T15:37:55Z" duration-ms="2073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- skb.admintestcases.logintestcases -->
+      <class name="skb.admintestcases.frontofficetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:37:11Z" name="setup" finished-at="2021-04-24T15:37:33Z" duration-ms="22442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkuserlabel1()[pri:1, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:37:33Z" name="checkuserlabel1" finished-at="2021-04-24T15:37:33Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkuserlabel1 -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:37:33Z" name="AfterMethod" finished-at="2021-04-24T15:37:33Z" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:38:17Z" name="setup" finished-at="2021-04-24T15:38:39Z" duration-ms="21701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkvisitorsclick()[pri:2, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:38:39Z" name="checkvisitorsclick" finished-at="2021-04-24T15:38:43Z" duration-ms="3736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkvisitorsclick -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:skb.admintestcases.frontofficetest@7068e664]" started-at="2021-04-24T15:38:43Z" name="AfterMethod" finished-at="2021-04-24T15:38:43Z" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- skb.admintestcases.frontofficetest -->
+      <class name="skb.admintestcases.visitortest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:34:53Z" name="beforeMethod" finished-at="2021-04-24T15:35:24Z" duration-ms="31021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addvisitor([Ljava.lang.String;)[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:35:24Z" name="addvisitor" data-provider="getVISTestData" finished-at="2021-04-24T15:35:38Z" duration-ms="14221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@6af65f29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvisitor -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:35:38Z" name="afterMethod" finished-at="2021-04-24T15:35:38Z" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:35:38Z" name="beforeMethod" finished-at="2021-04-24T15:36:27Z" duration-ms="48738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="addvisitor([Ljava.lang.String;)[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:36:27Z" name="addvisitor" data-provider="getVISTestData" finished-at="2021-04-24T15:36:41Z" duration-ms="14163" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@370c9018]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvisitor -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:skb.admintestcases.visitortest@60db1c0e]" started-at="2021-04-24T15:36:41Z" name="afterMethod" finished-at="2021-04-24T15:36:41Z" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- skb.admintestcases.visitortest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

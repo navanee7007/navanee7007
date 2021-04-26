@@ -1,0 +1,45 @@
+package skb.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import skb.base.testbase;
+
+public class frontofficepage extends testbase
+{
+ 
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/h3")WebElement appoindetals;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/div/a[2]")WebElement visitorbook;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/h3")WebElement visitorlist;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/div/a")WebElement addvisitor1;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/div/a")WebElement addvisitor2;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[1]/div[1]/div/select")WebElement purpose;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[1]/div[2]/div/input")WebElement name;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[2]/div[1]/div/input")WebElement phone;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[2]/div[2]/div/input")WebElement id;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[3]/div[1]/div/input")WebElement NOP;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[5]/textarea")WebElement note;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[2]/button")WebElement save;
+	
+	 public frontofficepage()
+	   {
+		   PageFactory.initElements(driver, this);
+		   
+	   }
+	  public String checkappointmentpagetitle()
+	   {
+		   String title=driver.getTitle();
+		return title;
+		   
+	   }
+	  public boolean usernametest()
+	   {
+		   profile.click();
+		   boolean logo=Text1.isDisplayed();
+		   return logo;
+	   }
+	
+	  
+	
+}

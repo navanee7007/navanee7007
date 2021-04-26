@@ -1,0 +1,40 @@
+package skb.admintestcases;
+
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import skb.base.testbase;
+import skb.pages.Homepage;
+import skb.pages.Logpage;
+import skb.pages.frontofficepage;
+
+            
+			public class frontofficetest extends testbase
+			{
+				 Logpage log;
+				 Homepage home;
+				 frontofficepage front;
+				 
+				 public frontofficetest()
+				 {
+					 super();
+					 
+				 }
+				 
+				 @BeforeMethod
+				 public void setup()
+			     {
+				    Initialization();
+					log=new Logpage();
+					front=log.logintest(prop.getProperty("username"),prop.getProperty("password"));
+			     }	
+					@Test(priority=1)
+					public void appointmenttitle()
+					{
+					String expectedtitle="Appointment Details";
+					String actualtitle=front.checkappointmentpagetitle();
+					Assert.assertEquals(actualtitle, expectedtitle);
+					}
+			 
+			}

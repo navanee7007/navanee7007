@@ -1,0 +1,5 @@
+package skb.pages;
+
+public class visitorbookpagebook extends visitorbookpage {
+
+}

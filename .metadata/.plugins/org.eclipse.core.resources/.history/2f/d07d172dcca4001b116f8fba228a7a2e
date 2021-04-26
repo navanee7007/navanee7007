@@ -1,0 +1,35 @@
+package skb.util;
+
+import java.io.IOException;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+
+import skb.base.testbase;
+
+public class commonutility extends testbase
+{
+	//script for mouse click
+	public static void mouseclick(WebElement el)
+	{
+	  Actions action=new Actions(driver);
+	  action.click(el).build().perform();
+	}
+	//Script for file Upload  
+	public static void upload(String floc)
+	{
+	  
+	  try {
+	    Runtime.getRuntime().exec("./src/test/resources/multiplefileupload.exe"+" "+floc);
+	    Thread.sleep(4000);
+	  } catch (IOException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	  } catch (InterruptedException e) {
+	    // TODO Auto-generated catch block
+	    e.printStackTrace();
+	  }
+	}
+
+}

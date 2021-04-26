@@ -1,0 +1,13 @@
+package skb.pages;
+
+public class Homepage 
+{
+	  public Homepage logintest(String username,String password)
+	   {
+	   	uname.sendKeys(username);
+	   	upass.sendKeys(password);
+	   	return new Homepage();
+	   				
+	   }
+
+}

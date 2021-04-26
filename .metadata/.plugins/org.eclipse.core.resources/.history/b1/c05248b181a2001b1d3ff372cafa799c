@@ -1,0 +1,72 @@
+package skb.pages;
+
+import javax.swing.Action;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
+
+import skb.base.testbase;
+import skb.util.commonutility;
+
+public class visitorbookpagebook extends testbase 
+{
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/h3")WebElement visitorlist;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/div/a")WebElement addvisitor1;
+	@FindBy(xpath="/html/body/div[1]/div[1]/section/div/div/div/div[1]/div/a")WebElement addvisitor2;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[1]/div[1]/div/select")WebElement purpose;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[1]/div[2]/div/input")WebElement name;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[2]/div[1]/div/input")WebElement phone;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[2]/div[2]/div/input")WebElement id;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[3]/div[1]/div/input")WebElement NOP;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[1]/div[5]/textarea")WebElement note;
+	@FindBy(xpath="/html/body/div[3]/div/div/div[2]/form/div[2]/button")WebElement save;
+	@FindBy(xpath=("/html/body/div[3]/div/div/div[2]/form/div[1]/div[6]/div/div/input"))WebElement upload;
+	@FindBy(xpath=("//input[@id='date']"))WebElement date;
+	
+	public visitorbookpagebook() 
+	{
+		PageFactory.initElements(driver,this);
+	}
+	
+    public void clickvisitorbook()
+	
+	{
+		addvisitor1.click();
+	 	
+	}
+	public boolean usernametest2()
+	 {
+		   
+		   boolean logo=visitorlist.isDisplayed();
+		   return logo;
+		   
+	}
+	public boolean usernametest3()
+	 {
+		   
+		   boolean logo=addvisitor2.isDisplayed();
+		   return logo;
+		   }
+	public void detail() 
+	{
+		   addvisitor1.click();
+		   purpose.click();
+		   Select obj=new Select(purpose);
+		   obj.selectByVisibleText("14");
+		   name.sendKeys("navanee");
+		   phone.sendKeys("9976760422");
+		   id.sendKeys("kovi74");
+		   NOP.sendKeys("5");
+		   note.sendKeys("back pain");
+		   save.click();
+		 // commonutility.mouseclick(upload);
+		 // commonutility.mouseclick(date);
+		   
+		   
+		   
+		}
+
+
+}
